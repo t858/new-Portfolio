@@ -1,7 +1,8 @@
 import './App.css';
 import alanBtn from "@alan-ai/alan-sdk-web";
 import React, { useEffect } from 'react';
-import Resume from "../src/assets/My Resume.pdf"
+import { saveAs } from 'file-saver'
+import Resume from "./assets/My Resume.pdf"
 
 function App() {
   useEffect(() => {
