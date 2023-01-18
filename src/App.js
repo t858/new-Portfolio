@@ -3,6 +3,7 @@ import alanBtn from "@alan-ai/alan-sdk-web";
 import React, { useEffect } from 'react';
 import { saveAs } from 'file-saver'
 import Resume from "./assets/My Resume.pdf"
+import Img from "./assets/Img1.png"
 
 function App() {
   useEffect(() => {
@@ -50,6 +51,7 @@ function App() {
   }, []);
   return (
     <div className="App">
+      <img src={Img} alt="Not Loading"/>
     </div>
   );
 }
