@@ -46,8 +46,6 @@ function App() {
         }
       }
     })
-
-    window.onload(alert("Tap on the mic button and say Hello. You can use instructions like Open Github, Open LinkedIn, Start Download on his resume"))
   }, []);
   return (
     <div className="App">
