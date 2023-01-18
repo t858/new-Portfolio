@@ -51,7 +51,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <img src={Img} alt="Not Loading"/>
+      <img src={Img} alt="Not Loading" className="Image"/>
     </div>
   );
 }
