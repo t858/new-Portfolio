@@ -11,3 +11,10 @@
    position: relative;
    top: 30%;
 }
+
+@media screen and (max-width: 768px){
+  .Image{
+     max-width: 12rem;
+     max-height: 12rem;
+  }
+}
