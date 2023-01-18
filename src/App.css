@@ -10,6 +10,15 @@
     max-height: 50rem;
     max-width: 50rem;
 }
+
+@media screen and (min-width: 600px){
+    .Image{
+        max-width: 20rem;
+        max-height: 20rem;
+    }
+}
+
+
 @media screen and (max-width: 768px){
   .Image{
      max-width: 15rem;
